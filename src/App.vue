@@ -42,4 +42,8 @@ h3 {
   background-color: green;
   color: white;
 }
+
+#show-btn {
+  background-color: #00bfff;
+}
 </style>

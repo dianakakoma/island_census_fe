@@ -8,7 +8,7 @@
       <p>Id: {{ being.id }}</p>
 
       <!--Show Action -->
-      <button v-on:click="showBeing(being)">Show More...</button>
+      <button v-on:click="showBeing(being)" id="show-btn">Show More...</button>
       <div v-if="currentBeing === being">
         <p>Habitat: {{ being.habitat }}</p>
         <p>Weight: {{ being.weight }} lbs.</p>
